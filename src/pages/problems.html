@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weekly RIOT PULSE</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/logo.svg" alt="RIOT PULSE Logo" class="logo">
+            <div>
+                <h1 class="title">The Weekly RIOT PULSE</h1>
+                <h2 class="subtitle">Problems And Benefits</h2>
+            </div>
+        </div>
+
+        <form id="problemsForm" class="form-page">
+            <div class="three-columns">
+                <div class="column">
+                    <h3>Problems We Solve:</h3>
+                    <p>Our products/services solve the following problems for our customers:</p>
+                    <div class="input-group">
+                        <textarea class="text-input" name="problem1" placeholder="(problem 1)" required></textarea>
+                        <textarea class="text-input" name="problem2" placeholder="(problem 2)" required></textarea>
+                        <textarea class="text-input" name="problem3" placeholder="(problem 3)" required></textarea>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <h3>Key Features and Benefits:</h3>
+                    <p>Our products/services have the following key features and benefits:</p>
+                    <div class="input-group">
+                        <textarea class="text-input" name="feature1" placeholder="(feature 1, benefit 1)" required></textarea>
+                        <textarea class="text-input" name="feature2" placeholder="(feature 2, benefit 2)" required></textarea>
+                        <textarea class="text-input" name="feature3" placeholder="(feature 3, benefit 3)" required></textarea>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <h3>Competitive Advantage:</h3>
+                    <p>Our products/services stand out from the competition because:</p>
+                    <div class="input-group">
+                        <textarea class="text-input" name="advantage1" placeholder="(unique feature or benefit)" required></textarea>
+                        <textarea class="text-input" name="advantage2" placeholder="(exclusive partnership or expertise)" required></textarea>
+                        <textarea class="text-input" name="advantage3" placeholder="(innovative approach or technology)" required></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation">
+                <button type="button" class="prev" id="prevButton">Previous</button>
+                <button type="button" class="next" id="nextButton">Next</button>
+            </div>
+        </form>
+    </div>
+
+    <script type="module" src="/js/main.js"></script>
+</body>
+</html>

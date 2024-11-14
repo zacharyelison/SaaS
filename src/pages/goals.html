@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weekly RIOT PULSE</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/logo.svg" alt="RIOT PULSE Logo" class="logo">
+            <div>
+                <h1 class="title">The Weekly RIOT PULSE</h1>
+                <h2 class="subtitle">Goals and Objectives</h2>
+            </div>
+        </div>
+
+        <form id="goalsForm" class="form-page">
+            <div class="two-columns">
+                <div class="column">
+                    <h3>Short-Term Goals (Next 6-12 months):</h3>
+                    <p>We aim to:</p>
+                    <div class="input-group">
+                        <textarea class="text-input" name="short_term_goal1" placeholder="(specific goal 1, e.g., launch new product)" required></textarea>
+                        <textarea class="text-input" name="short_term_goal2" placeholder="(specific goal 2, e.g., increase revenue by 20%)" required></textarea>
+                        <textarea class="text-input" name="short_term_goal3" placeholder="(specific goal 3)" required></textarea>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <h3>Long-Term Goals (Next 1-3 years):</h3>
+                    <p>We aim to:</p>
+                    <div class="input-group">
+                        <textarea class="text-input" name="long_term_goal1" placeholder="(specific goal 1, e.g., establish market leadership)" required></textarea>
+                        <textarea class="text-input" name="long_term_goal2" placeholder="(specific goal 2, e.g., expand into new markets)" required></textarea>
+                        <textarea class="text-input" name="long_term_goal3" placeholder="(specific goal 3, e.g., develop new products/services)" required></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-spacing">
+                <div class="input-group">
+                    <h3>Email Address:</h3>
+                    <input type="email" class="text-input" name="email" placeholder="Enter your email address" required style="min-height: auto; padding: 0.75rem;">
+                </div>
+            </div>
+
+            <div class="navigation">
+                <button type="button" class="prev" id="prevButton">Previous</button>
+                <button type="submit" class="submit" id="submitButton">Generate PDF & Send</button>
+            </div>
+        </form>
+    </div>
+
+    <script type="module" src="/js/main.js"></script>
+</body>
+</html>

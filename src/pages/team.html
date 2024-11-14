@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weekly RIOT PULSE</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/logo.svg" alt="RIOT PULSE Logo" class="logo">
+            <div>
+                <h1 class="title">The Weekly RIOT PULSE</h1>
+                <h2 class="subtitle">Team and Leadership</h2>
+            </div>
+        </div>
+
+        <form id="teamForm" class="form-page">
+            <div class="two-columns">
+                <div class="column">
+                    <h3>Our Team:</h3>
+                    <p>We are a team of:</p>
+                    <div class="input-group">
+                        <textarea class="text-input" name="team_type1" placeholder="(type of professionals 1, e.g., designers)" required></textarea>
+                        <p class="input-caption">type of professionals 1, e.g., designers</p>
+                        
+                        <textarea class="text-input" name="team_type2" placeholder="(type of professionals 2, e.g., engineers)" required></textarea>
+                        <p class="input-caption">type of professionals 2, e.g., engineers</p>
+                        
+                        <textarea class="text-input" name="team_type3" placeholder="(type of professionals 3, e.g., marketers)" required></textarea>
+                        <p class="input-caption">type of professionals 3, e.g., marketers</p>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <h3>Our Leadership:</h3>
+                    <p>Our leadership is committed to:</p>
+                    <div class="input-group">
+                        <textarea class="text-input" name="leadership1" placeholder="(leadership principle 1, e.g., transparency)" required></textarea>
+                        <p class="input-caption">leadership principle 1, e.g., transparency</p>
+                        
+                        <textarea class="text-input" name="leadership2" placeholder="(leadership principle 2, e.g., accountability)" required></textarea>
+                        <p class="input-caption">leadership principle 2, e.g., accountability</p>
+                        
+                        <textarea class="text-input" name="leadership3" placeholder="(leadership principle 3, e.g., empowerment)" required></textarea>
+                        <p class="input-caption">leadership principle 3, e.g., empowerment</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation">
+                <button type="button" class="prev" id="prevButton">Previous</button>
+                <button type="button" class="next" id="nextButton">Next</button>
+            </div>
+        </form>
+    </div>
+
+    <script type="module" src="/js/main.js"></script>
+</body>
+</html>

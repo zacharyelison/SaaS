@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weekly RIOT PULSE</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/logo.svg" alt="RIOT PULSE Logo" class="logo">
+            <div>
+                <h1 class="title">The Weekly RIOT PULSE</h1>
+                <h2 class="subtitle">Target Market And Ideal Customer</h2>
+            </div>
+        </div>
+
+        <form id="targetMarketForm" class="form-page">
+            <div class="three-columns">
+                <div class="column">
+                    <h3>Target Market/Niche:</h3>
+                    <p>Our target market/niche is:</p>
+                    <div class="input-group">
+                        <textarea class="text-input" name="industry" placeholder="(industry/sector)" required></textarea>
+                        <textarea class="text-input" name="audience" placeholder="(specific audience or demographic)" required></textarea>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <h3>Ideal Customer:</h3>
+                    <p>Our ideal customer is:</p>
+                    <div class="input-group">
+                        <textarea class="text-input" name="customer_online" placeholder="Online channels: ___ (social media, search engines, etc.)" required></textarea>
+                        <textarea class="text-input" name="customer_offline" placeholder="Offline channels: ___ (events, partnerships, etc.)" required></textarea>
+                        <textarea class="text-input" name="customer_specific" placeholder="Specific channels: ___ (podcasts, webinars, etc.)" required></textarea>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <h3>Customer Channels:</h3>
+                    <p>We can find our target customers through:</p>
+                    <div class="input-group">
+                        <textarea class="text-input" name="channel_online" placeholder="Online channels: ___ (social media, search engines, etc.)" required></textarea>
+                        <textarea class="text-input" name="channel_offline" placeholder="Offline channels: ___ (events, partnerships, etc.)" required></textarea>
+                        <textarea class="text-input" name="channel_specific" placeholder="Specific channels: ___ (podcasts, webinars, etc.)" required></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation">
+                <button type="button" class="prev" id="prevButton">Previous</button>
+                <button type="button" class="next" id="nextButton">Next</button>
+            </div>
+        </form>
+    </div>
+
+    <script type="module" src="/js/main.js"></script>
+</body>
+</html>

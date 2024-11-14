@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weekly RIOT PULSE</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/logo.svg" alt="RIOT PULSE Logo" class="logo">
+            <div>
+                <h1 class="title">The Weekly RIOT PULSE</h1>
+                <h2 class="subtitle">The Offer</h2>
+            </div>
+        </div>
+
+        <form id="offerForm" class="form-page">
+            <div class="three-columns">
+                <div class="column">
+                    <h3>Market Trends and Growth:</h3>
+                    <p>Our target market is growing due to:</p>
+                    <div class="input-group">
+                        <textarea class="text-input" name="trend1" placeholder="(trend 1, e.g., increasing demand for sustainability)" required></textarea>
+                        <textarea class="text-input" name="trend2" placeholder="(trend 2, e.g., advancements in technology)" required></textarea>
+                        <textarea class="text-input" name="trend3" placeholder="(trend 3, e.g., shifting consumer behaviors)" required></textarea>
+                    </div>
+
+                    <h3 style="margin-top: 2rem;">Delivery Channels:</h3>
+                    <p>We deliver our offer through:</p>
+                    <div class="input-group">
+                        <textarea class="text-input" name="channel1" placeholder="(channel 1, e.g., online platform)" required></textarea>
+                        <textarea class="text-input" name="channel2" placeholder="(channel 2, e.g., in-person consultations)" required></textarea>
+                        <textarea class="text-input" name="channel3" placeholder="(channel 3)" required></textarea>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <h3>Unique Value Proposition (UVP):</h3>
+                    <p>Our unique value proposition is:</p>
+                    <div class="input-group">
+                        <textarea class="text-input" name="uvp" placeholder="(clear and concise statement of your UVP)" style="min-height: 200px;" required></textarea>
+                    </div>
+
+                    <h3 style="margin-top: 2rem;">Pricing and Revenue Models:</h3>
+                    <p>Our pricing and revenue models are:</p>
+                    <div class="input-group">
+                        <textarea class="text-input" name="pricing_strategy" placeholder="(pricing strategy, e.g., subscription-based)" required></textarea>
+                        <textarea class="text-input" name="revenue_streams" placeholder="(revenue streams, e.g., advertising, sponsorships)" required></textarea>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <h3>Our Offer:</h3>
+                    <p>Our offer consists of:</p>
+                    <div class="input-group">
+                        <textarea class="text-input" name="products" placeholder="Products: ___ (list your products)" required></textarea>
+                        <textarea class="text-input" name="services" placeholder="Services: ___ (list your services)" required></textarea>
+                        <textarea class="text-input" name="additional_offerings" placeholder="Additional offerings" required></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation">
+                <button type="button" class="prev" id="prevButton">Previous</button>
+                <button type="button" class="next" id="nextButton">Next</button>
+            </div>
+        </form>
+    </div>
+
+    <script type="module" src="/js/main.js"></script>
+</body>
+</html>

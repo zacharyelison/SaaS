@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weekly RIOT PULSE</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/logo.svg" alt="RIOT PULSE Logo" class="logo">
+            <div>
+                <h1 class="title">The Weekly RIOT PULSE</h1>
+                <h2 class="subtitle">Culture and Values</h2>
+            </div>
+        </div>
+
+        <form id="cultureForm" class="form-page">
+            <div class="two-columns">
+                <div class="column">
+                    <h3>Our Culture:</h3>
+                    <p>We foster a culture of:</p>
+                    <div class="input-group">
+                        <textarea class="text-input" name="culture_adj1" placeholder="(adjective 1, e.g., innovation)" required></textarea>
+                        <p class="input-caption">adjective 1, e.g., innovation</p>
+                        
+                        <textarea class="text-input" name="culture_adj2" placeholder="(adjective 2, e.g., collaboration)" required></textarea>
+                        <p class="input-caption">adjective 2, e.g., collaboration</p>
+                        
+                        <textarea class="text-input" name="culture_adj3" placeholder="(adjective 3, e.g., customer-centricity)" required></textarea>
+                        <p class="input-caption">adjective 3, e.g., customer-centricity</p>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <h3>Our Values:</h3>
+                    <p>We hold the following values dear:</p>
+                    <div class="input-group">
+                        <textarea class="text-input" name="value1" placeholder="(value 1, e.g., integrity)" required></textarea>
+                        <p class="input-caption">value 1, e.g., integrity</p>
+                        
+                        <textarea class="text-input" name="value2" placeholder="(value 2, e.g., empathy)" required></textarea>
+                        <p class="input-caption">value 2, e.g., empathy</p>
+                        
+                        <textarea class="text-input" name="value3" placeholder="(value 3, e.g., continuous learning)" required></textarea>
+                        <p class="input-caption">value 3, e.g., continuous learning</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation">
+                <button type="button" class="prev" id="prevButton">Previous</button>
+                <button type="button" class="next" id="nextButton">Next</button>
+            </div>
+        </form>
+    </div>
+
+    <script type="module" src="/js/main.js"></script>
+</body>
+</html>

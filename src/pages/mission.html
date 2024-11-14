@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weekly RIOT PULSE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/global.css">
+    <link rel="stylesheet" href="/src/css/forms.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="/logo.svg" alt="RIOT PULSE Logo">
+            </div>
+            <div>
+                <h1 class="title">The Weekly RIOT PULSE</h1>
+                <h2 class="subtitle">Mission</h2>
+            </div>
+        </div>
+
+        <!-- Rest of the form content remains the same -->
+        <form id="missionForm" class="form-page">
+            <div class="mission-section">
+                <h3>Our mission is to</h3>
+                <textarea class="form-control mb-4" name="mission" rows="4" required></textarea>
+            </div>
+
+            <div class="section-spacing">
+                <h3>We are guided by the following core values:</h3>
+                <div class="three-columns">
+                    <div class="column">
+                        <textarea class="form-control" name="value1" rows="4" required></textarea>
+                        <p class="input-caption">value 1, e.g., innovation, customer-centricity</p>
+                    </div>
+                    <div class="column">
+                        <textarea class="form-control" name="value2" rows="4" required></textarea>
+                        <p class="input-caption">value 2, e.g., teamwork, sustainability</p>
+                    </div>
+                    <div class="column">
+                        <textarea class="form-control" name="value3" rows="4" required></textarea>
+                        <p class="input-caption">value 3, e.g., integrity, creativity</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="three-columns section-spacing">
+                <div class="column">
+                    <h3>What Makes Us Unique:</h3>
+                    <textarea class="form-control" name="unique" rows="4" required></textarea>
+                    <p class="input-caption">Our business is unique because ___ (differentiator, e.g., proprietary technology, exclusive partnerships).</p>
+                </div>
+                <div class="column">
+                    <h3>Our Founder's Story:</h3>
+                    <textarea class="form-control" name="founder_story" rows="4" required></textarea>
+                    <p class="input-caption">Our founder, [Name], started this business because ___ (personal story, e.g., passion for solving a problem, industry experience).</p>
+                </div>
+                <div class="column">
+                    <h3>Our Products/Services:</h3>
+                    <div class="d-flex flex-column gap-3">
+                        <div>
+                            <textarea class="form-control" name="product1" rows="3" required></textarea>
+                            <p class="input-caption">product/service 1</p>
+                        </div>
+                        <div>
+                            <textarea class="form-control" name="product2" rows="3" required></textarea>
+                            <p class="input-caption">product/service 2</p>
+                        </div>
+                        <div>
+                            <textarea class="form-control" name="product3" rows="3" required></textarea>
+                            <p class="input-caption">product/service 3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation">
+                <button type="button" class="btn btn-outline-light" id="prevButton">Previous</button>
+                <button type="button" class="btn btn-danger" id="nextButton">Next</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="/js/main.js"></script>
+</body>
+</html>
